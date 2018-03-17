@@ -4,7 +4,7 @@
 		<Console name="Console" target="SYSTEM_OUT" ignoreExceptions="false">
 			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] (%F:%L)  - %m%n" />
 		</Console>
-		<GELF name="gelfAppender" server="www.johnsonlau.net" port="12201"
+		<GELF name="gelfAppender" server="ce6.midea.com" port="12201"
 			hostName="appserver01.example.com" protocol="UDP">
 			<KeyValuePair key="environment" value="DEV" />
 			<KeyValuePair key="application" value="demo" />
